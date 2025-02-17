@@ -1,0 +1,14 @@
+# Metadata for the project
+# Uncomment and edit the fields you want to include in the metadata
+# See metadata properties at https://koza.monarchinitiative.org/Ingests/source_config/
+
+id:  'CURIE for the project'
+name: 'monarchkg-phenotype_phenotype_to_phenotype'
+ingest_title: 'monarchkg_model_organism_phenotype_transform'
+ingest_url: 'https://github.com/monarch-initiative/monarchkg-model-organism-phenotype-transform'
+description: 'This is the project description.'
+# source: 'Possibly replaced by provided_by'
+provided_by: 'monarchkg-phenotype'
+# One of license and rights is possibly redundant
+license: 'Link to license'
+rights: 'Link to rights' 

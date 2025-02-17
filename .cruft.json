@@ -1,0 +1,26 @@
+{
+  "template": "https://github.com/monarch-initiative/cookiecutter-monarch-ingest.git",
+  "commit": "811b322208beb2d68655f367e895a68017b97834",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "github_org_name": "monarch-initiative",
+      "project_name": "monarchkg-model-organism-phenotype-transform",
+      "project_description": "This is the project description.",
+      "__repo_name": "monarchkg-model-organism-phenotype-transform",
+      "__project_slug": "monarchkg_model_organism_phenotype_transform",
+      "__project_url": "https://github.com/monarch-initiative/monarchkg-model-organism-phenotype-transform",
+      "ingest_source": "monarchkg-phenotype",
+      "ingest_type": "phenotype_to_phenotype",
+      "__ingest_name": "monarchkg-phenotype_phenotype_to_phenotype",
+      "min_python_version": "3.10",
+      "full_name": "Daniel Korn",
+      "email": "dkorn@cs.unc.edu",
+      "__author": "Daniel Korn <dkorn@cs.unc.edu>",
+      "license": "BSD-3",
+      "_template": "https://github.com/monarch-initiative/cookiecutter-monarch-ingest.git",
+      "_commit": "811b322208beb2d68655f367e895a68017b97834"
+    }
+  },
+  "directory": null
+}
