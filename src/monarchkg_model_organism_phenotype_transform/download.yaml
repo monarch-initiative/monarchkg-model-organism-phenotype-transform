@@ -3,5 +3,9 @@
 ### The configuration is used by `kghub-downloader`.
 ### For more information, see https://github.com/monarch-initiative/kghub-downloader
 ---
-- url: https://raw.githubusercontent.com/monarch-initiative/cookiecutter-monarch-ingest/main/data/example_data.tsv
-  local_name: data/example_data.tsv
+- url: https://github.com/obophenotype/upheno-dev/raw/refs/heads/master/src/mappings/upheno-cross-species.sssom.tsv
+  local_name: data/upheno-cross-species.sssom.tsv
+#- url: https://data.monarchinitiative.org/monarch-kg/latest/monarch-kg.duckdb.gz
+#  local_name: data/monarch-kg.duckdb.gz
+#- url: https://data.monarchinitiative.org/monarch-kg/latest/metadata.yaml
+#  local_name: data/metadata.yaml

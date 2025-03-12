@@ -3,9 +3,10 @@
 
 name: "monarchkg-phenotype_phenotype_to_phenotype"
 metadata: "./src/monarchkg_model_organism_phenotype_transform/metadata.yaml"
-format: "csv" # Format of the data files (csv or json)
-files:
-  - "./data/example_data.tsv"
+format: "yaml" # Format of the data files (csv or json)
+files: 
+   - "./data/metadata.yaml"
+#  - "./data/monarch-kg.duckdb"
 #################################################################################################
 ### file_archive is typically optional, but required if:                                      ###
 ###    1. files is not provided                                                               ###
@@ -14,6 +15,7 @@ files:
 ### Otherwise, it is safe to remove this section and the file_archive parameter               ###
 #################################################################################################
 # file_archive: Optional path to a file archive containing files to process
+#file_archive: "./data/monarch-kg.duckdb.gz"
 
 node_properties:
   # List of node properties to include, if ingesting nodes
@@ -37,8 +39,9 @@ edge_properties:
 
 ### Optional parameters - uncomment to use, or remove to ignore
 
-min_node_count: 10
-min_edge_count: 5
+#min_node_count: 10
+#min_edge_count: 5
+
 # sssom_config: List of SSSOM config options
 # field_type_map: Dict of field names and their type (using the FieldType enum)
 # filters: List of filters to apply
